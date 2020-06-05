@@ -15,7 +15,7 @@ function Label (props) {
         position: 'absolute',
         display: 'inline-block',
         color,
-        left: left,
+        left,
         zIndex: labelPlacement === 'down'
           ? '2'
           : labelPlacement === 'downLower'
