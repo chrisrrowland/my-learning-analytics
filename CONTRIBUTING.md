@@ -79,5 +79,14 @@ Then you can edit your files! (Probably in /code/dashboard)
 ## Running front-end tests
 `docker exec -it webpack_watcher npm test` will run the test suite for the front-end React application. [Jest](https://jestjs.io/) is the testing framework used. More tests (including back-end tests) are planned for the future.
 
+## Setup Codacy on your repository
+1. Visit https://app.codacy.com/projects
+   Register if necessary.
+2. Click Add a repository
+3. Give access on Github if you haven't already
+4. Find your repository and click add. (I believe it must be public)
+   It should say "Reviewing" The page never seems to update to denote that "Reviewing" has completed.  If you refresh the page your repository will no longer be listed.
+5. Up top select "My Repositories".  Your newly added repo should be listed
+
 ## Code Review
 All contributions will be code reviewed and you may need to make some changes to your contribution. We really appreciate tests as well, so if at all possible please try to add tests.
